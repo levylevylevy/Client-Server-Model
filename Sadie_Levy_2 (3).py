@@ -1,7 +1,14 @@
 #description:my program imports the socket package, creates a TCP
 #connection with the server and creates and connects a client socket,
-#then sends introductory NUID info to the server, gets an expression back, calculates the result and sends the server the result until it's wrong and gets a fail message, or right and gets a success message and a flag. Then, the socket closes. While it is communicating with the server it is converting strings to messages and messages to strings, and it uses eval() and a while loop to calculate the result.
-#testing summary: I ran the program using a local host and the sample_server_py and typed in EECE2540 INTR 001327578 and ran it and that part worked as it answered with an expression. I gave the wrong result and it said EECE2540 fail so I knew that it recognizes wrong expressions. Then, I ran it again, and this time put the correct results using EECE2540 RSLT result while loop until I got the flag.
+#then sends introductory NUID info to the server, gets an expression back, 
+#calculates the result and sends the server the result until it's wrong and 
+#gets a fail message, or right and gets a success message and a flag. 
+#Then, the socket closes. While it is communicating with the server it is converting 
+#strings to messages and messages to strings, and it uses eval() and a while loop to calculate the result.
+#testing summary: I ran the program using a local host and the sample_server_py and typed in 
+#EECE2540 INTR 001327578 and ran it and that part worked as it answered with an expression. 
+#I gave the wrong result and it said EECE2540 fail so I knew that it recognizes wrong expressions. 
+#Then, I ran it again, and this time put the correct results using EECE2540 RSLT result while loop until I got the flag.
 #NUID:001327578
 #flag:66d3116cf0604813dc64a4d41bd3a5160dbd68649b34cb50ad4f356b3ad63247
 import math
